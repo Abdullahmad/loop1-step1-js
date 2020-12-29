@@ -1,3 +1,7 @@
+:root {
+    font-size: 16px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -66,11 +70,25 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 
-.sepe {
-    border: 5px solid #5995FA;
+#opay {
     width: 45rem;
     height: 4rem;
-    border-radius: 5px;
+    border-radius: 7px;
+    padding: 0 1rem;
+    border: 5px solid #5995FA;
+}
+
+@media(max-width:760px) {
+     :root {
+        font-size: 14px;
+    }
+    .wasiu {
+        display: block;
+    }
+    .kroo {
+        display: none;
+    }
 }
